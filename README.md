@@ -1,6 +1,6 @@
 # Baby Library
 
-This is a basic library that contains objects called Baby. There is a subclass called AmericanBaby and many methods that can be applied to the Baby objects. 
+This is a basic library that contains objects called Baby. 
 
 To install from your current working directory use:
 
