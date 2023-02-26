@@ -11,7 +11,7 @@ def test_Baby2():
     baby2 = Baby(40, 36, "Quiet", True)
     baby2.eat()
     assert baby2.hungry == False
-    assert baby2.weight == 15
+    assert baby2.weight == 36
     assert baby2.loudness == "Quiet"
     assert baby2.height == 40
     assert baby2.cry() == "waaaaa"

@@ -10,13 +10,13 @@ class Baby:
 
     def cry(self):
         if self.loudness == "Loud" or self.hungry:
-            print("WAAAAA!")
+            return "WAAAAA!"
         else:
-            print("waaaaa")
+            return "waaaaa"
     
     def eat(self):
         if self.hungry:
             self.hungry = False
         else:
-            print("NOOOO")
+            return "NOOOO"
     
